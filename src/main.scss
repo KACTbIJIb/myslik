@@ -1,6 +1,15 @@
 html * {
   outline: 0px solid red;
 }
+.container{
+  outline: 2px solid green;
+  width: auto;
+  padding: 20px;
+  margin: auto;
+  font-size: 150%;
+  text-align: center;
+  background-color:#E0FFFF;     
+}
 h1{
   color:blue;
   font-size: 150%;
