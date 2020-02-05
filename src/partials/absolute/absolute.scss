@@ -1,0 +1,15 @@
+.container{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: red;
+    border: 2px solid black;
+}
+.unread{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border: 2px solid blue;
+    padding: 10px;
+}
