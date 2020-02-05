@@ -7,14 +7,16 @@
   <script src="./js/main.js"></script>
   <title>Hello world</title>
 </head>
-
 <body>
-  <img src="/img/cat3.jpg" alt="here soul">
-  <img src="/img/cat.jpg">
-  <div class="img_container">
-    <img src="/img/cat.jpg" class="image">
-  </div>
-  <div class="img_background"  />
-</body>
+<div class="big-div">
+  <a href="#ancor">go tu Foooter</a>
+  @@include("./partials/relativ/_relativ.html")
+  
+</div>
+<div id="ancor">Foooter/div>
 
+@@include("./partials/fixed/_fixed.html", {"test1":"NTNT__lkljj"})
+
+
+</body>
 </html>
