@@ -1,4 +1,39 @@
 html * {
   outline: 1px solid red; }
 
+.menu {
+  height: 64px;
+  width: 100%;
+  text-align: center; }
+
+.menu_2 {
+  height: 64px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+.rabbit {
+  display: block;
+  height: 64px;
+  width: auto;
+  margin: 0 left; }
+
+.logo_img {
+  height: 64px; }
+
+.menu_3 {
+  display: flex;
+  justify-content: flex-end;
+  height: 64px;
+  width: 600px; }
+
+.m_1,
+.m_2,
+.m_3,
+.m_4,
+.m_5 {
+  height: 64px;
+  width: 120px; }
+
 /*# sourceMappingURL=maps/main.css.map */
