@@ -1,8 +1,27 @@
 html * {
-  outline: 1px solid red; }
+  outline: 0px solid red; }
 
-.layer1 {
-  display: flex;
-  justify-content: space-between; }
+.container {
+  outline: 2px solid green;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+  font-size: 150%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #E0FFFF; }
+
+h1 {
+  color: blue;
+  font-size: 150%;
+  font-family: Georgia, serif;
+  text-align: center; }
+
+h2 {
+  color: green;
+  font-size: 120%;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center; }
 
 /*# sourceMappingURL=maps/main.css.map */
