@@ -1,4 +1,8 @@
 html * {
   outline: 1px solid red; }
 
+.layer1 {
+  display: flex;
+  justify-content: space-between; }
+
 /*# sourceMappingURL=maps/main.css.map */
