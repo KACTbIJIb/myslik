@@ -1,8 +1,11 @@
 html * {
   outline: 1px solid red; }
 
-.layer1 {
+.container {
   display: flex;
-  justify-content: space-between; }
+  height: 100px;
+  flex-direction: row;
+  justify-content: start;
+  align-items: stretch; }
 
 /*# sourceMappingURL=maps/main.css.map */
