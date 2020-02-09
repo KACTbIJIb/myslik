@@ -37,23 +37,23 @@ html * {
 .container:hover .menu {
   background-color: #3e8e41; }
 
-.menu_2 {
+.podmenu_1 {
   display: none;
   position: absolute;
   background-color: blueviolet;
   min-width: 160px;
   margin-left: 160px; }
 
-.menu_2 a {
+.podmenu_1 a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block; }
 
-.menu_2 a:hover {
+.podmenu_1 a:hover {
   background-color: #4cafa2; }
 
-.container:hover .menu_2 {
+.menu_1:hover .podmenu_1 {
   display: block; }
 
 /*# sourceMappingURL=maps/main.css.map */
