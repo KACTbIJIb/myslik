@@ -1,5 +1,5 @@
 html * {
-  outline: 0px solid red;
+  outline: 1px solid red;
 }
 .menu{
   height: 64px;
@@ -36,3 +36,18 @@ html * {
   height: 64px;
   width: 120px;  
 }
+.orange{
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  border-top: 3px solid orange;
+  border-bottom: 3px solid orange;
+  background: url("/img/orange.jpg") no-repeat;
+  background-size: cover;  
+}
+.orange_1{
+  height: 400px;
+  max-width: 1200px;
+  margin:0 auto;  
+  }
