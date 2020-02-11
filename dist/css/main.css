@@ -23,9 +23,15 @@ html * {
   color: #000; }
 
 .title__user-position {
-  color: red; }
+  color: orange; }
 
 .description {
   text-align: center; }
+
+.flex {
+  display: flex; }
+
+.flex-item {
+  width: 33.33%; }
 
 /*# sourceMappingURL=maps/main.css.map */
