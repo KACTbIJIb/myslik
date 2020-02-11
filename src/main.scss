@@ -1,5 +1,5 @@
 html * {
-  outline: 1px solid red;
+  outline: 0px solid red;
 }
 .menu{
   height: 64px;
@@ -49,5 +49,6 @@ html * {
 .orange_1{
   height: 400px;
   max-width: 1200px;
-  margin:0 auto;  
-  }
+  margin: 0 auto;
+  border-top: 1px solid orange;    
+  }  
