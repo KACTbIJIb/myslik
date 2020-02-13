@@ -1,5 +1,5 @@
 html * {
-  outline: 0px solid red; }
+  outline: 1px solid red; }
 
 .menu {
   height: 64px;
@@ -50,6 +50,32 @@ html * {
   height: 400px;
   max-width: 1200px;
   margin: 0 auto;
-  border-top: 0px solid orange; }
+  border-top: 1px solid orange;
+  text-align: left; }
+
+.orange_1__rabbits {
+  height: 65px;
+  width: 380px;
+  background-color: #646363;
+  opacity: 0.6;
+  font-size: 35px;
+  font-family: Impact;
+  color: orange;
+  text-align: center;
+  margin-top: 135px;
+  margin-left: 7.5px; }
+
+.orange_1__pole {
+  height: 25px; }
+
+.orange_1__orange {
+  height: 75px;
+  width: 395px;
+  background-color: orange;
+  opacity: 0.6;
+  font-size: 35px;
+  font-family: Impact;
+  color: #646363;
+  text-align: center; }
 
 /*# sourceMappingURL=maps/main.css.map */

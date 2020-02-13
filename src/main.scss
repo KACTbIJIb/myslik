@@ -1,5 +1,5 @@
 html * {
-  outline: 0px solid red;
+  outline: 1px solid red;
 }
 .menu{
   height: 64px;
@@ -36,7 +36,7 @@ html * {
   height: 64px;
   width: 120px;  
 }
-.orange{
+.orange {
   height: 400px;
   width: 100%;
   text-align: center;
@@ -46,9 +46,38 @@ html * {
   background: url("/img/orange.jpg") no-repeat;
   background-size: cover;  
 }
-.orange_1{
+.orange_1 {
   height: 400px;
   max-width: 1200px;
   margin: 0 auto;
-  border-top: 0px solid orange;    
-  }  
+  border-top: 1px solid orange;
+  text-align: left;  
+  }
+.orange_1__rabbits {
+  height: 65px;
+  width: 380px;
+  background-color: rgb(100, 99, 99);
+  opacity: 0.6;
+  font-size: 35px;
+  font-family: Impact;
+  color: orange;
+  text-align: center;
+  margin-top: 135px;
+  margin-left: 7.5px;
+  }
+.orange_1__text {
+    
+}
+.orange_1__pole {
+  height: 25px;
+}
+.orange_1__orange {
+  height: 75px;
+  width: 395px;
+  background-color: orange;
+  opacity: 0.6;
+  font-size: 35px;
+  font-family: Impact;
+  color:  rgb(100, 99, 99);
+  text-align: center;
+}
