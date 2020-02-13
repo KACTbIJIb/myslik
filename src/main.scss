@@ -1,5 +1,5 @@
 html * {
-  outline: 1px solid red;
+  outline: 0px solid red;
 }
 .menu{
   height: 64px;
@@ -66,8 +66,10 @@ html * {
   margin-left: 7.5px;
   }
 .orange_1__text {
-    
-}
+  display: block;
+  position: relative;
+  top: 15%;
+  }
 .orange_1__pole {
   height: 25px;
 }
@@ -81,3 +83,8 @@ html * {
   color:  rgb(100, 99, 99);
   text-align: center;
 }
+.orange_1__text2 {
+  display: block;
+  position: relative;
+  top: 20%;
+  }
