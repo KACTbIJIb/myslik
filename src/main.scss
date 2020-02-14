@@ -50,7 +50,7 @@ html * {
   height: 400px;
   max-width: 1200px;
   margin: 0 auto;
-  border-top: 1px solid orange;
+  border-top: 0px solid orange;
   text-align: left;  
   }
 .orange_1__rabbits {
@@ -68,7 +68,7 @@ html * {
 .orange_1__text {
   display: block;
   position: relative;
-  top: 15%;
+  top: 12px;
   }
 .orange_1__pole {
   height: 25px;
@@ -86,5 +86,35 @@ html * {
 .orange_1__text2 {
   display: block;
   position: relative;
-  top: 20%;
+  top: 17px;
   }
+.lorem {
+  height: auto;
+  width: 100%;
+  border-bottom: 3px solid rgb(219, 215, 215);
+  text-align: center;
+ }
+.lorem__read_more {
+  height: auto;
+  max-width: 1200px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  }
+.lorem__text {
+  max-width: 290px;
+  margin-top: 37px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-align: left;
+}
+.read_more {
+  font-family: Arial;
+  font-style: italic;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 800;
+  color: orange;
+}
