@@ -118,4 +118,29 @@ html * {
   font-weight: 800;
   color: orange; }
 
+.Meet_send {
+  height: 700px;
+  width: 100%;
+  margin: auto; }
+
+.Meet,
+.Team {
+  display: flex;
+  height: 100px;
+  max-width: 1200px;
+  margin: auto; }
+
+.Meet_the_team,
+.Send_us {
+  position: relative;
+  margin: auto;
+  font-size: 50px;
+  color: orange;
+  text-decoration: underline; }
+
+.main {
+  height: 500px;
+  max-width: 1200px;
+  margin: auto; }
+
 /*# sourceMappingURL=maps/main.css.map */
