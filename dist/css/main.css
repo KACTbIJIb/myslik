@@ -178,4 +178,21 @@ html * {
   display: flex;
   justify-content: space-between; }
 
+.name_em_mass {
+  height: auto;
+  max-width: 1200px;
+  margin: auto; }
+
+.name {
+  font-size: 30px;
+  color: orange;
+  display: flex;
+  justify-content: space-between; }
+
+.name1 {
+  font-size: 30px;
+  border-top: 2px solid #8f8d8d;
+  border-left: 5px solid #8f8d8d;
+  background-color: rgba(243, 239, 239, 0.7); }
+
 /*# sourceMappingURL=maps/main.css.map */
