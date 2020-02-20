@@ -156,10 +156,48 @@ html * {
   color: orange;
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
 }
 .name1 {
   font-size: 30px;
   border-top: 2px solid rgb(143, 141, 141);
   border-left: 5px solid  rgb(143, 141, 141);
   background-color: rgba(243, 239, 239, 0.7);
+  width: 1060px;
 }
+.Message {
+  font-size: 30px;
+  border-top: 2px solid rgb(143, 141, 141);
+  border-left: 5px solid  rgb(143, 141, 141);
+  background-color: rgba(243, 239, 239, 0.7);
+  width: 1060px;
+}
+.bottom {
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+ }
+ .submit {
+  font-size: 30px;
+  color: white;
+  background-color: orange;
+ }
+ .copyright{
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  background-color: orange;  
+ }
+ .copyright1{
+  display: flex;
+  margin: auto;
+  height: 70px;
+  max-width: 1200px;
+  text-align: center;
+  }
+.copyright2{
+  position: relative;
+  margin: auto;
+  font-size: 40px;
+  color: white;
+  }
