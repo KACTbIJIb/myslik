@@ -1,6 +1,10 @@
 html * {
   outline: 1px solid red; }
 
+html, body {
+  margin: 0;
+  padding: 0; }
+
 .contauner {
   display: flex;
   flex-direction: row;
@@ -23,6 +27,22 @@ html * {
   justify-content: center;
   background-color: yellow;
   display: flex; }
+
+.main_menu {
+  padding: 5px; }
+
+.main_menu_menu {
+  width: 20px;
+  height: 5px;
+  background-color: gray;
+  margin: 4px; }
+
+.menu_line {
+  display: flex; }
+
+.menu {
+  width: 100px;
+  height: auto; }
 
 @media screen and (max-width: 1024px) {
   .card-item {
