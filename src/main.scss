@@ -1,3 +1,35 @@
 html * {
   outline: 1px solid red;
 }
+
+.contauner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid blue;
+  }
+
+.card {
+  border: 1px solid blue;
+  height: 150px;
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  }
+
+.card-item {
+  height: 100%;
+  width: 100%;
+  border: 1px solid blue;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  display: flex;
+  }
+
+@media screen and (max-width: 1024px){
+  .card-item {
+    width: 33.3%;
+  }
+}
