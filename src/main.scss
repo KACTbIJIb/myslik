@@ -1,55 +1,46 @@
 html * {
   outline: 1px solid red;
 }
-html, body {
-  margin: 0;
-  padding: 0;
-}
-.contauner {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  border: 1px solid blue;
-  }
 
-.card {
-  border: 1px solid blue;
-  height: 150px;
-  width: 20%;
-  padding: 10px;
-  box-sizing: border-box;
+html, body {
+  padding: 0;
+  margin: 0;
+}
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
   }
 
 .card-item {
+  border: 1px solid grey;
+  padding: 10px;
+  width: 20%;
+  height: 200px;
+  box-sizing: border-box;
+  }
+
+.card-content {
+  background-color: green;
   height: 100%;
-  width: 100%;
-  border: 1px solid blue;
+  display: flex;
   align-items: center;
   justify-content: center;
-  background-color: yellow;
-  display: flex;
+  font-size: 30px;
   }
-.main_menu {
-  padding: 5px;
-  }
-.main_menu_menu {
-  width: 20px;
-  height: 5px;
-  background-color: gray;
-  margin: 4px;
-  }
-.menu_line {
-  display: flex;
-  
-}  
-.menu {
-  width: 100px;
-  height: auto;
-    
-}
+
 @media screen and (max-width: 1024px){
   .card-item {
     width: 33.3%;
   }
 }
+@media screen and (max-width: 768px){
+  .card-item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 420px){
+  .card-item {
+    width: 100%;
+  }
+}
+
