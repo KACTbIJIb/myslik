@@ -15,12 +15,12 @@ html, body {
   border: 1px solid grey;
   padding: 10px;
   width: 20%;
-  height: 200px;
+  height: 250px;
   box-sizing: border-box;
   }
 
 .card-content {
-  background-color: green;
+  background-color: orange;
   height: 100%;
   display: flex;
   align-items: center;
@@ -44,3 +44,48 @@ html, body {
   }
 }
 
+.menu_container {
+  padding: 7px;
+  position: relative;
+  }
+
+.cub_container {
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+.line {
+  height: 3px;
+  width: auto;
+  background-color: gray;
+}
+.menu_cont {
+  display: flex;
+  }
+
+.menu {
+  padding: 7px;
+  border: 1px solid black;
+ }
+
+ @media screen and (max-width: 1024px){
+   .cub_container {
+     display: flex;
+   }
+ 
+  .menu_cont {
+    flex-direction: column;
+    position: absolute;
+    top: 80%;
+    left: 38px;
+    background-color: blueviolet;
+    display: none;
+    }
+  .cub_container:hover~.menu_cont {
+    display: flex;
+  }
+ }
