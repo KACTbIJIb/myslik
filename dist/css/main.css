@@ -1,11 +1,4 @@
 html * {
   outline: 1px solid red; }
 
-.container {
-  display: flex;
-  height: 100px;
-  flex-direction: row;
-  justify-content: start;
-  align-items: stretch; }
-
 /*# sourceMappingURL=maps/main.css.map */

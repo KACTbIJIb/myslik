@@ -7,14 +7,33 @@
     <title>trash</title>
   </head>
   <body>
-    <div class="container">
-      <div>11111</div>
-      <div>22222</div>
-      <div>33333</div>
-      <div>44444</div>
-    </div>
-    <form action="">
-      <p><input type="text" value=""></p>
-    </form>   
+    <iframe name = "myframe" width = "1250px" height = "650px" src = "http://auditenergo.by"></iframe>
+    <!-- в атрибуте src указываем абсолютный адрес сайта, который хотим открыть во фрейме -->
+
+    <a href = "http://auditenergo.by" target = "myframe"></a> 
+    <!-- указываем, что ссылка откроется во фрейме -->
+    
+    <form name="test" method="post" action="input1.php">
+      <p><b>Ваше имя:</b><br>
+       <input type="text" size="40">
+      </p>
+      <p><b>Каким браузером в основном пользуетесь:</b><Br>
+       <input type="radio" name="browser" value="ie"> Internet Explorer<Br>
+       <input type="radio" name="browser" value="opera"> Opera<Br>
+       <input type="radio" name="browser" value="firefox"> Firefox<Br>
+      </p>
+      <p>Комментарий<Br>
+       <textarea name="comment" cols="40" rows="3"></textarea></p>
+      <p><input type="submit" value="Отправить">
+       <input type="reset" value="Очистить"></p>
+     </form>
+
+     <p><b>Какое у вас состояние разума?</b></p>
+     <p><input name="dzen" type="radio" value="nedzen"> Не дзен</p>
+     <p><input name="dzen" type="radio" value="dzen"> Дзен</p>
+     <p><input name="dzen" type="radio" value="pdzen" checked> Полный дзен</p>
+     <p><input type="submit" value="Выбрать"></p>
+
+
   </body>
 </html>
