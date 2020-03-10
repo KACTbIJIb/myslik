@@ -1,61 +1,74 @@
-html * {
-  /* outline: 0px solid red; */
+/* html * {
+  outline: 1px solid red; 
+} */
+.container {
+overflow: hidden;
+width: 265px;
+margin: auto;
+margin-top: 50px;
 }
-@font-face {
-  font-family:'icons';
-  src: url('../fonts/sap-icofonts.woff');
-}
-
-.accordion {
-  width: 250px;
-  margin: 20px;
-  /* outline: 2px solid white; */
-  
-}
-label {
-  display: block;
-  }
-
 input {
   display: none;
-  }
-
-.accordion_item {
-  display: block;
-  border: 1px solid black;
-  padding: 10px 30px;
-  margin: 0;
+}
+label {
+  float: right;
+  width: 42px;
+  font-size: 50px;
   cursor: pointer;
+  line-height: 50px;
+  color: gray;
+}
+label::before {
+  content:'\2605';
+}
+input:checked ~ label {
+  color: gold;
+}
+label:active {
   position: relative;
+}
 
-  }
-  .accordion_item:after {
-    content: '\E00D';
-    display: block;
-    font-family: 'icons';
-    position: absolute;
-    top:  50%;
-    right: 20px;
-    transform: translateY(-50%);
-  }
 
-  .input1:checked ~ .accordion_item.input1:after, 
-  .input2:checked ~ .accordion_item.input2:after, 
-  .input3:checked ~ .accordion_item.input3:after {
-   content: '\E00F';    
-  }
 
-.accordion_deskr {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height .5s ease;
-  border: 1px solid gray;
-  border-top: none;
-     }
-
-  .input1:checked ~ .accordion_deskr.input1,
-  .input2:checked ~ .accordion_deskr.input2,
-  .input3:checked ~ .accordion_deskr.input3 {
-      max-height: 100vh;
-      transition: max-height .5s ease;
-  }
+/* .rating-area {
+	overflow: hidden; 
+  width: 265px;
+ margin: 0 auto;
+  
+}
+.rating-area:not(:checked) > input {
+  display: none;
+  
+}
+.rating-area:not(:checked) > label {
+  float: right;
+ 	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 50px;
+	line-height: 50px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content:'\2605';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+} */
